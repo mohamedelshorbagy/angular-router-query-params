@@ -1,0 +1,5 @@
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let item of items | search:filterText:status">
+    {{ item.name }} - {{ item.age }}
+  </li>
+</ul>
